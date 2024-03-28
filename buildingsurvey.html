@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Survey_Form</title>
+	<link rel="stylesheet" type="text/css" href="buildingsurvey.css">
+</head>
+<body>
+	<div class="heading">
+		<h1 id="head">Building Survey Form</h1>
+		<h2 id="subheading"><i>Thank you for taking the time to help us with the survey.</i></h2><br><br>
+	</div>
+	<form>
+		<div id = "content1">
+			<label>Name</label><br><br>
+			<input type="name" name="Name" placeholder="Enter your name" class="box" required><br><br>
+			<label>Email</label><br><br>
+			<input type="email" name="Email" placeholder="Enter your email" class="box" required><br><br>
+			<label>Plot no.</label><br><br>
+			<input type="plot" name="Plot_no" placeholder="Enter your plot number" class="box" required><br><br>
+			<label>Building type</label><br><br>
+			<div id="option1">
+					<select>
+						<option name="Select Your Building Type">Select Your Building Type</option>
+						<option value="Building Type1">Building Type1</option>
+						<option value="Building Type2">Building Type2</option>
+						<option value="Building Type3">Building Type3</option>
+						<option value="Building Type4">Building Type4</option>
+						<option value="Others">Others</option>
+					</select>
+			</div>
+			<br>
+			<label id="head1">Type of walls</label><br><br>
+			<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspWallType1 <br><br>
+			<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspWallType2 <br><br>
+			<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspWallType3 <br><br>
+			<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspWallType4 <br><br>
+			<input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspWallType5 <br><br>
+			<label>Type of sth sth</label><br><br>
+			<div id="option2">
+						<select>
+							<option name="Select Your sth sth Type">Select Your sth sth Type</option>
+							<option value="SthSthType1">SthSthType1</option>
+							<option value="SthSthType2">SthSthType2</option>
+							<option value="SthSthType3">SthSthType3</option>
+							<option value="SthSthType4">SthSthType4</option>
+							<option value="SthSthOthers">SthSthOthers</option>
+						</select>
+			</div>
+			<br><br>
+			<label id="head2">Type of sth2 sth2</label><br><br>
+			<div id="content2">
+				<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspSth2Sth2Type1</label><br><br>
+				<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspSth2Sth2Type2</label><br><br>
+				<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspSth2Sth2Type3</label><br><br>
+				<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspSth2Sth2Type4</label><br><br>
+				<input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspSth2Sth2Type5</label><br><br>
+			</div>
+			<div class="container">
+				<label for="image">Upload the required image</label><br><br>
+				<input type="file" id="image" name="image" accept="image/png, image/jpeg" multiple>
+				
+				<br><br>
+			</div>
+			<div id="content3">
+				<label id="head2">Any comments or suggestions?</label><br><br><br>
+				<textarea placeholder="Enter your comments here...."></textarea><br><br>
+				<button><h2>Submit</h2></button>
+			</div>
+		</div>
+	</form>
+</body>
+</html>
 
